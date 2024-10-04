@@ -1,5 +1,4 @@
 import { Form } from "react-router-dom";
-
 export default function Contact() {
   const contact = {
     first: "Your",
@@ -9,7 +8,6 @@ export default function Contact() {
     notes: "Some notes",
     favorite: true,
   };
-
   return (
     <div id="contact">
       <div>
@@ -71,7 +69,6 @@ export default function Contact() {
     </div>
   );
 }
-
 function Favorite({ contact }) {
   const favorite = contact.favorite;
   return (
